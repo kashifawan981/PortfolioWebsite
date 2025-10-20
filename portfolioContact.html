@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio@Contact</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    #social a i{
+        font-size: 24px;
+        transition: transform 0.3s linear;
+     }
+     #social a i:hover{
+        transform: scale(1.1);
+     }
+      nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 9px;
+     }
+     hr{
+        border: 0.4px solid rgb(138, 128, 128);
+     }
+        nav a.active {
+  color: #dc2626; /* Tailwind red-600 */
+  border-bottom: 2px solid #dc2626;
+  padding-bottom: 2px;
+}
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+
+  <nav class="flex justify-center md:justify-end gap-6 p-6">
+    <a href="portfolioHome.html" class="text-gray-800 font-bold hover:text-red-600">Home</a>
+    <a href="portfolioWork.html" class="text-gray-800 font-bold hover:text-red-600">Works</a>
+    <a href="portfolioBlogs.html" class="text-gray-800 font-bold hover:text-red-600">Blog</a>
+    <a href="portfolioContact.html" class="text-gray-800 font-bold hover:text-red-600 active">Contact</a>
+  </nav>
+
+  <header class="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-10 max-w-6xl mx-auto gap-8">
+   
+    <div class="max-w-lg text-center md:text-left">
+      <h2 class="text-4xl font-bold leading-tight">
+       Hi, I am Tauseef, a <br />
+        creative Web Designer
+      </h2>
+      <p class="mt-4 text-gray-600">
+        Amet consectetur adipisicing elit. Consequatur nam et sequi delectus
+        ducimus earum modi deleniti omnis architecto sit dicta, eius harum,
+        perferendis optio, dolorem dolores.
+      </p>
+      <button
+        type="button" onclick= "window.location.href='mailto:tauseef205005@gmail.com'"  class="bg-red-600 px-[2rem] py-[1.2rem] mt-6 rounded text-white font-bold hover:bg-red-700 text-2xl cursor-pointer">
+        Contact me
+      </button>
+    </div>
+
+  
+    <div>
+      <img
+        src="img (2).png"
+        alt="Profile"
+        class="h-48 w-48 md:h-56 md:w-56 rounded-full object-cover mx-auto"
+      />
+    </div>
+  </header>
+   
+   <div class="flex justify-center gap-6 mt-10 text-gray-600" id="social">
+      <a href="#facebook"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#youtube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#instagram"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#linkend"><i class="fa-brands fa-square-linkedin"></i></a>
+    </div>
+
+    <p class="text-center text-sm text-gray-500 mt-6">
+      Copyrights &copy;2020. All Rights Reserved
+    </p>
+</body>
+</html>
+

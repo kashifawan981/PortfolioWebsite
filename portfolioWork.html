@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio@Work</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+  #social a i{
+        font-size: 24px;
+        transition: transform 0.3s linear;
+     }
+     #social a i:hover{
+        transform: scale(1.1);
+     }
+      nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 9px;
+     }
+     hr{
+        border: 0.4px solid rgb(138, 128, 128);
+     }
+        nav a.active {
+  color: #dc2626; /* Tailwind red-600 */
+  border-bottom: 2px solid #dc2626;
+  padding-bottom: 2px;
+}
+     
+     </style>
+</head>
+<body class="font-sans text-gray-800">
+
+  <nav class="flex justify-center md:justify-end gap-6 p-6  ">
+    <a href="portfolioHome.html" class="text-gray-800 font-bold hover:text-red-600">Home</a>
+    <a href="portfolioWork.html" class="text-gray-800 font-bold hover:text-red-600 active">Works</a>
+    <a href="portfolioBlogs.html" class="text-gray-800 font-bold hover:text-red-600">Blog</a>
+    <a href="portfolioContact.html" class="text-gray-800 font-bold hover:text-red-600">Contact</a>
+  </nav>
+
+    <h1 class="text-6xl text-red-600 ml-14 font-bold mt-6">Works</h1>
+<div class="space-y-10 ml-14 my-16">
+      <article class="flex flex-col md:flex-row items-start gap-6">
+        <img src="./code.jpeg" alt="img1" class="h-40 w-48 object-cover rounded" />
+        <div>
+          <h3 class="text-xl font-bold">Designing Dashboards</h3>
+          <div class="flex items-center gap-3 my-2">
+            <span class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-semibold">2020</span>
+            <p class="text-gray-400 text-sm">Dashboard</p>
+          </div>
+          <p class="text-gray-700 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim saepe
+            officiis, similique harum exercitationem. Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Tempora, explicabo nisi? Vero itaque, rerum sequi hic, facere ducimus accusamus nihil saepe explicabo vel eos omnis impedit suscipit,<br> soluta rem accusantium.
+          </p>
+        </div>
+      </article>
+
+      <article class="flex flex-col md:flex-row items-start gap-6">
+        <img src="./portrait.jpg" alt="img2" class="h-40 w-48 object-cover rounded" />
+        <div>
+          <h3 class="text-xl font-bold">Vibrant Portraits of 2020</h3>
+          <div class="flex items-center gap-3 my-2">
+            <span class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-semibold">2018</span>
+            <p class="text-gray-400 text-sm">Portraits</p>
+          </div>
+          <p class="text-gray-700 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim saepe
+            officiis, similique harum exercitationem. Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Culpa, ducimus eaque architecto perferendis praesentium asperiores iure porro, tempore, debitis sunt ut aspernatur veniam perspiciatis?<br> Minus omnis eos veniam amet cumque?
+          </p>
+        </div>
+      </article>
+
+      <article class="flex flex-col md:flex-row items-start gap-6">
+        <img src="./logo.jpg" alt="img3" class="h-40 w-48 object-cover rounded" />
+        <div>
+          <h3 class="text-xl font-bold">36 days of Malayalam Type</h3>
+          <div class="flex items-center gap-3 my-2">
+            <span class="bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-semibold">2022</span>
+            <p class="text-gray-400 text-sm">Typography</p>
+          </div>
+          <p class="text-gray-700 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim saepe
+            officiis, similique harum exercitationem. Lorem ipsum dolor, sit amet <br> consectetur adipisicing elit. Quam quod amet dolorum totam, vel, ipsam distinctio corporis repellat perferendis provident quos dolores ex <br>quae dolore ullam nostrum rem reiciendis dolorem!
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <footer>
+        
+    <div class="flex justify-center gap-6 mt-10 text-gray-600" id="social">
+      <a href="#facebook"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#youtube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#instagram"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#linkend"><i class="fa-brands fa-square-linkedin"></i></a>
+    </div>
+
+    <p class="text-center text-sm text-gray-500 mt-6">
+      Copyrights &copy;2020. All Rights Reserved
+    </p>
+  </footer>
+</body>
+</html>
